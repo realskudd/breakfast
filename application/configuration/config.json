@@ -1,0 +1,12 @@
+{
+    "encryptionKey": "TkRRNU9UQXlaV1kxTWpSaU9UbGlNMlJtTURoa05XTTVOalF3TkRnME5USWdJQzBLCg==",
+    "database": {
+        "host": "localhost",
+        "username": "tgarrison",
+        "password": "W$ylityqua900",
+        "databaseName": "breakfast"
+    },
+    "theme": {
+        "name": "default"
+    }
+}
