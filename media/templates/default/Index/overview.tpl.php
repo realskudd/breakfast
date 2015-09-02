@@ -38,6 +38,10 @@
                 <b class="glyphicon glyphicon-plus"></b>
                 Add a schedule
             </a>
+            <a href="<?=$this->url('Rotation', 'editSchedules')?>" class="btn btn-sm btn-default">
+                <b class="glyphicon glyphicon-pencil"></b>
+                Edit Schedules
+            </a>
         </div>
     </div>
 

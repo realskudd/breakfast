@@ -94,9 +94,4 @@ class Controller
         $viewData = ['errorTitle' => $title, 'errorMessage' => $message];
         View::factory('_core', 'error', $viewData)->render();
     }
-
-    public function getSoapClient($serviceName, $initParameter = null, $version = null)
-    {
-        return SoftLayer::getSoapClient($serviceName, $initParameter, $version);
-    }
 }

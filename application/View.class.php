@@ -83,15 +83,6 @@ class View
         return date($format, $time);
     }
 
-    public function jiraMarkupToHtml($text)
-    {
-        $text = preg_replace('#{quote}(.*?){quote}#sm', '<blockquote>$1</blockquote>', $text);
-
-        $text = nl2br($text);
-
-        return $text;
-    }
-
     public function redirect($url)
     {
         header('Location: ' . $url);
