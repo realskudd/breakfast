@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is dead and is no longer maintained.
+
 # breakfast
 Breakfast Tracker
 
